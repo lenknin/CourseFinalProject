@@ -1,0 +1,158 @@
+* {
+    font-family:  "Calibri Light";
+}
+
+button {
+    padding: 10px 16px;
+    font-weight: 600;
+    background: #0eaf87;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: #12795f;
+}
+
+button:active {
+    background: #1d997a;
+}
+
+input {
+    min-width: 250px;
+    padding: 8px;
+    border: 1px solid #909090;
+    height: 20px;
+    border-radius: 10px;
+}
+
+button, input {
+    margin: 1rem;
+    outline: none;
+}
+
+
+body>header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #12795f;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+nav ul {
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+}
+nav ul li {
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 4.3em;
+}
+nav ul a {
+    color:white;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul a:hover, .aktivni a {
+    border-bottom: 2px solid #34efb7;
+}
+
+body {
+    background: #f9f9f9;
+    color: #414042;
+    margin: 10px;
+    padding: 100px 0px 0px 0px;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+   align-items: center;
+    min-width: 960px;
+    min-height: 100vh;
+   
+}
+
+.formular {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.vlevo{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:3px, 10px;
+}
+.stred{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin:3px, 10px;
+}
+.vpravo{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin:3px, 10px;
+}
+
+p{
+color:#12795f;
+text-align: center;
+}
+
+table {
+    margin: 20px 100px;
+    padding: 10px;
+    border: 1px solid #12795f;
+    border-collapse: collapse;
+    width:max-content;
+    text-align:center;
+    border-radius:10px;
+}
+
+table th {
+    padding:15px 50px;
+    font-weight:bold;
+    background-color:#0eaf87;
+    color:white;
+}
+
+table th td {
+    padding:20px 50px;
+    
+}
+table tr td {
+    padding:10px 50px;
+    color:#414042; 
+    border: 1px solid #12795f;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+   box-sizing:border-box;
+    color: white;
+    background:#12795f;
+    padding: 20px 20px 20px 20px;
+}
+#oAplikaci{
+    height: 400px;
+}
+
