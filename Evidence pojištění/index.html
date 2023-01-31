@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Evidence pojištění</title>
+    <link href="css/styly.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <h1>Easy<span>Pojištění</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li class="aktivni"><a href="index.html">Pojištěnci</a></li>
+                <li><a href="oAplikaci.html">O aplikaci</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <header>
+            <h1>Nový pojištěnec</h1><br>
+        </header>
+        <div>
+            <section class="formular">
+                <div class="vlevo">
+                    <img src="obrazky/person.png" id="ikona" alt="add person"/>
+                </div>
+                <div class="stred">
+                    <label id="popisekPole">Jméno </label><br>
+                    <input type="text" id="jmeno" placeholder="Josef"><br>
+                    <label id="popisekPole">Věk </label><br>
+                    <input type="number" id="vek" placeholder="35"><br>
+                </div>
+                <div class="vpravo">
+                    <label id="popisekPole">Příjmení </label><br>
+                    <input type="text" id="prijmeni" placeholder="Pokorný"><br>
+                    <label id="popisekPole">Telefon</label><br>
+                    <input type="tel" id="telefon" placeholder="+420 777 777 777"><br>
+                </div>
+            </section>
+            
+                <p><button id="ulozit">Uložit</button></p>
+        </div>
+       <h2>Pojištěnci</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Jméno</th>
+                        <th>Příjmení</th>
+                        <th>Věk</th>
+                        <th>Telefon</th>
+                        <th>Upravit</th>
+                    </tr>
+                </thead>
+                <tbody id = "vypis">
+
+                </tbody>
+            </table>
+     
+    </article>
+    <footer>
+        Vytvořila Lenka Půtová 2022
+    </footer>
+    <script src="js/EvidencePojistencu.js"></script>
+    <script src="js/Pojistenec.js"></script>
+    <script src="js/obsluha.js"></script>
+</body>
+
+</html>
